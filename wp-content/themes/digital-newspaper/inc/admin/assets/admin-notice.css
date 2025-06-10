@@ -1,0 +1,42 @@
+/**
+ * Review notice styling
+ */
+
+ .digital-newspaper-admin-notice {
+   font-family: cursive;
+ }
+
+ .digital-newspaper-admin-notice .notice-highlight {
+   font-weight: bold;
+   font-size: 16px;
+ }
+
+ .digital-newspaper-admin-notice .notice-actions .dismiss {
+   color: #ff0000;
+ }
+
+ .digital-newspaper-admin-notice .notice-content {
+   padding: 20px;
+   border: 1px solid #0000001f;
+   margin-bottom: 25px;
+ }
+
+ .digital-newspaper-admin-notice .notice-actions a {
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+   padding: 10px;
+   margin: 12px 10px 0 0;
+   cursor: pointer;
+ }
+
+ .digital-newspaper-admin-notice .notice-actions span.dashicons {
+   padding: 4px;
+ }
+
+ .digital-newspaper-admin-notice .notice-dismiss-button {
+   text-align: right;
+   padding-bottom: 10px;
+}
+
+.digital-newspaper-admin-notice .notice-dismiss-button a {
+   color: #ff0000;
+}
